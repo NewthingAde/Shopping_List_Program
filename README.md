@@ -76,12 +76,12 @@ The GroceryItem struct contains three members: the name of the item (as a string
 The ShoppingList struct has two members: an array of grocery items and the current length of the shopping list.
 
 
-#main.c
+# main.c
 
 This file contains the main () -function and the menu that operates the program. 
 
 
-#addItem ()
+# addItem ()
 This function add an item to the grocery list. 
 
 The function (and all other functions) receives a pointer to a shopping list. This is a pointer to the shopping list defined in main () , and the functions make changes directly to the shopping list that the argument list is pointing to.
@@ -91,23 +91,23 @@ If the user enters a non-positive number for amount, the program tell the user t
 
 
 
-#printList ()
+# printList ()
 This function print the entire shopping list vertically aligned to the screen. Each item is numbered, starting from 1 (note however, that the first element will still be stored at index 0 in the array, as usual).
 
 
 If the list is empty (ie, if the length member is zero), the text “the list is empty” is printed instead of a list.
 
-#editItem ()
+# editItem ()
 The user can make changes the amount of a specific item by first prompting the user to enter a number indicating which item to change, and then asking for a new amount.
 
 
-#removeItem ()
+# removeItem ()
 The user can choose an item from the list and remove it. This is done by removing an item by shifting all the content above the removed element one step to the left, overwriting the previous item. For example, if it is the item on index 2 that is removed, the item on index 3 is moved to index 2, etc.
 
-#saveList ()
+# saveList ()
 When the user chooses to save a shopping list, the user should first select a file name. 
 
-#loadList ()
+# loadList ()
 The user is first asked for a file name. If the file does not exist, the program print an error message.
 
 When loading a new shopping list, it will overwrite the previous list that the user was working with. New memory is allocated for the loaded list.
