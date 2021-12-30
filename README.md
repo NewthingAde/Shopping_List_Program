@@ -4,7 +4,7 @@ This program lets the user maintain, edit, save and load shopping lists. The pro
 
 Below are a couple of example runs so that you can get an impression of how the finished program is supposed to work.
 
-#Example run (user input in bold ):
+## Example run (user input in bold ):
 
 Welcome to the shopping list manager!
 
@@ -67,7 +67,7 @@ What do you want to do? 7
 Goodbye!
 
 
-#ShoppingList.h
+# ShoppingList.h
 
 This file consists of struct definitions and function declarations for the functions that is implemented. It also contains two data types: one for a grocery item ( struct GroceryItem ) and one for a shopping list ( struct ShoppingList ). 
 
