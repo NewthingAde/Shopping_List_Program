@@ -4,7 +4,7 @@ This program lets the user maintain, edit, save and load shopping lists. The pro
 
 Below are a couple of example runs so that you can get an impression of how the finished program is supposed to work.
 
-## Example run (user input in bold ):
+# Example run (user input in bold ):
 
 Welcome to the shopping list manager
 ....................................
@@ -16,6 +16,7 @@ Change an item
 Save list
 Load list
 Exit
+
 What do you want to do? 1
 
 Enter name: Potatoes
