@@ -7,7 +7,7 @@ Below are a couple of example runs so that you can get an impression of how the 
 ## Example run (user input in bold ):
 
 Welcome to the shopping list manager
-- ----------------------------------
+....................................
 
 Add an item
 Print an item
@@ -25,7 +25,7 @@ Enter unit: kg
 Potatoes was added to the shopping list.
 
 Welcome to the shopping list manager
-- ----------------------------------
+....................................
 
 Add an item
 Display the shopping list
@@ -43,7 +43,7 @@ Enter unit: liter
 Milk was added to the shopping list.
 
 Welcome to the shopping list manager
-- ----------------------------------
+....................................
 
 Add an item
 Display the shopping list
